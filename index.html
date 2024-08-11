@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ramadan Countdown</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <audio id="countdownAudio" src="countdown.mp3" preload="auto"></audio>
-  <audio id="tickAudio" src="audios/ticking-clock_.mp3" preload="auto"></audio>
-  <div class="container text-center mt-5">
-    <h2 class="mb-4">Countdown to Ramadan</h2>
-    <div id="countdown" class="mb-4">
-      <div>
-        <span id="days" class="countdown-timer"></span> days
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramadan Countdown</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <audio id="countdownAudio" src="countdown.mp3" preload="auto"></audio>
+    <audio
+      id="tickAudio"
+      src="audios/ticking-clock_.mp3"
+      preload="auto"
+    ></audio>
+    <div class="container text-center mt-5">
+      <h2 class="mb-4">Countdown to Ramadan</h2>
+      <div id="countdown" class="mb-4">
+        <div><span id="days" class="countdown-timer"></span> days</div>
+        <div><span id="hours" class="countdown-timer"></span> hours</div>
+        <div><span id="minutes" class="countdown-timer"></span> minutes</div>
+        <div><span id="seconds" class="countdown-timer"></span> seconds</div>
       </div>
-      <div>
-        <span id="hours" class="countdown-timer"></span> hours
-      </div>
-      <div>
-        <span id="minutes" class="countdown-timer"></span> minutes
-      </div>
-      <div>
-        <span id="seconds" class="countdown-timer"></span> seconds
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
-        <h3 class="mb-4">Ramadan Images</h3>
-        <div class="images">
-          <img src="images/ramadan1.jpeg" alt="Ramadan Image 1" class="img-fluid mb-2">
-          <img src="images/ramadan2.jpeg" alt="Ramadan Image 2" class="img-fluid mb-2">
-          <img src="images/ramadan3.jpeg" alt="Ramadan Image 3" class="img-fluid mb-2">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h3 class="mb-4">Ramadan Images</h3>
+          <div class="images">
+            <img
+              src="images/ramadan1.jpeg"
+              alt="Ramadan Image 1"
+              class="img-fluid mb-2"
+            />
+            <img
+              src="images/ramadan2.jpeg"
+              alt="Ramadan Image 2"
+              class="img-fluid mb-2"
+            />
+            <img
+              src="images/ramadan3.jpeg"
+              alt="Ramadan Image 3"
+              class="img-fluid mb-2"
+            />
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
